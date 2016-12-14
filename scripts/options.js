@@ -22,7 +22,7 @@ function save_options() {
     target_y : target_yyyy
   }, function() {
     // Update status to let user know options were saved.
-    document.getElementById('results').src='http://54.201.252.209/cgi-bin/submit_info.py?uname='+user_name
+    document.getElementById('results').src='http://35.165.106.145/cgi-bin/submit_info.py?uname='+user_name
                           + '&usex_m='  + sex_m  + '&usex_f='  + sex_f
                           + '&birth_y=' + birth_yyyy + '&birth_m='  + birth_mm
                           + '&birth_d=' + birth_dd + '&birth_h='  + birth_hh
@@ -57,7 +57,7 @@ function restore_options() {
     document.getElementById('birth_solunar').value = items.birth_s;
     document.getElementById('target_yyyy').value = items.target_y;
 
-    document.getElementById('results').src='http://54.201.252.209/cgi-bin/submit_info.py?uname='+items.uname
+    document.getElementById('results').src='http://35.165.106.145/cgi-bin/submit_info.py?uname='+items.uname
                           + '&usex_m='  + items.usex_m  + '&usex_f='  + items.usex_f
                           + '&birth_y=' + items.birth_y + '&birth_m='  + items.birth_m
                           + '&birth_d=' + items.birth_d + '&birth_h='  + items.birth_h
